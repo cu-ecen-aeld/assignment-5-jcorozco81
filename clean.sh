@@ -1,5 +1,3 @@
 #!/bin/sh
 # Run make distclean from Buildroot
-cd buildroot
-make clean
-make distclean
+make -C buildroot distclean
